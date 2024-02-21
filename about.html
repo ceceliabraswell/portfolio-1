@@ -15,11 +15,10 @@
     />
     <!-- custom css -->
     <link rel="stylesheet" href="style.css" />
-
   </head>
-  <body>
-    <nav class="contact-nav">
-      <a href="home.html" class="logo">&ltdevCecelia&gt</a>
+  <body class="margin-body">
+    <!-- <nav class="contact-nav">
+      <a href="home.html" class="logo" class="about-logo">&ltdevCecelia&gt</a>
 
       <ul class="sidebar">
         <li onclick="hideSidebar()">
@@ -35,16 +34,38 @@
           <a href="#" class="menu-button"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 448 512" weight="24"><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg></i></a>
         </li>
       </ul>
-    </nav>
-    <div class="image-container">
-        <div class="about-container">
-            <div class="text-box">
-                <h2>About Me</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit dolore accusantium voluptatum commodi quisquam, facere dolores quam magnam illum amet blanditiis, architecto cum expedita! Nihil praesentium nulla ad officia suscipit.</p>
-            </div>
-        </div>
-    </div>
+    </nav> -->
 
+    <header class="header">
+      <a href="home.html" class="logo">&ltdevCecelia&gt</a>
+
+      <input type="checkbox" id="check" />
+      <label for="check" class="icons">
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+        <i class="fa-solid fa-x" id="close-icon"></i>
+      </label>
+
+      <nav class="navbar">
+        <a href="home.html">Home</a>
+        <a href="about.html">About Me</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>
+
+    <div class="image-container">
+      <div class="about-container">
+        <div class="text-box">
+          <h2>About Me</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit dolore
+            accusantium voluptatum commodi quisquam, facere dolores quam magnam
+            illum amet blanditiis, architecto cum expedita! Nihil praesentium
+            nulla ad officia suscipit.
+          </p>
+        </div>
+      </div>
+    </div>
 
     <script src="script.js"></script>
   </body>

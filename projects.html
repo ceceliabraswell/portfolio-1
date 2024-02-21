@@ -15,10 +15,9 @@
     />
     <!-- custom css -->
     <link rel="stylesheet" href="style.css" />
-
   </head>
-  <body>
-    <nav class="contact-nav">
+  <body class="project-body"  class="margin-body">
+    <!-- <nav class="contact-nav">
       <a href="home.html" class="logo">&ltdevCecelia&gt</a>
 
       <ul class="sidebar">
@@ -35,47 +34,62 @@
           <a href="#" class="menu-button"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 448 512" weight="24"><path d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"/></svg></i></a>
         </li>
       </ul>
-    </nav>
+    </nav> -->
+
+    <header class="header">
+      <a href="home.html" class="logo">&ltdevCecelia&gt</a>
+
+      <input type="checkbox" id="check" />
+      <label for="check" class="icons">
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+        <i class="fa-solid fa-x" id="close-icon"></i>
+      </label>
+
+      <nav class="navbar">
+        <a href="home.html">Home</a>
+        <a href="about.html">About Me</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </header>
 
     <section class="projects">
-        <h2 class="project-heading">My Projects</h2>
+      <h2 class="project-heading">My Projects</h2>
 
-        <div class="project-container">
-            <div class="project-box">
-                <img src="images/cafe_corner.png" alt="Cafe Around the Corner" />
-                <div class="project-layer">
-                    <h4>Cafe Around the Corner</h4>
-                    <p>
-                    A coffee website, built using HTML, & CSS.
-                    </p>
-                    <a href="#"><i class="bx bx-link-external"></i></a>
-                </div>
-            </div>
+      <div class="project-container">
+        <div class="project-box">
+          <img src="images/cafe_corner.png" alt="Cafe Around the Corner" />
+          <div class="project-layer">
+            <h4>Cafe Around the Corner</h4>
+            <p>A coffee website, built using HTML, & CSS.</p>
+            <a href="#"
+              ><i class="fa-solid fa-arrow-up-right-from-square"></i
+            ></a>
+          </div>
         </div>
-        <div class="project-container">
-            <div class="project-box">
-                <img src="images/cafe_corner.png" alt="Cafe Around the Corner" />
-                <div class="project-layer">
-                    <h4>Juan Electric</h4>
-                    <p>
-                    A coffee website, built using HTML, & CSS.
-                    </p>
-                    <a href="#"><i class="bx bx-link-external"></i></a>
-                </div>
-            </div>
+
+        <div class="project-box">
+          <img src="images/electric_juan.png" alt="Electric Juan" />
+          <div class="project-layer">
+            <h4>Electric Juan</h4>
+            <p>An electrician website, built using HTML, & CSS.</p>
+            <a href="#"
+              ><i class="fa-solid fa-arrow-up-right-from-square"></i
+            ></a>
+          </div>
         </div>
-        <div class="project-container">
-            <div class="project-box">
-                <img src="images/cafe_corner.png" alt="Cafe Around the Corner" />
-                <div class="project-layer">
-                    <h4>JavaScript Games</h4>
-                    <p>
-                    A coffee website, built using HTML, & CSS.
-                    </p>
-                    <a href="#"><i class="bx bx-link-external"></i></a>
-                </div>
-            </div>
+
+        <div class="project-box">
+          <img src="images/javascript_games.png" alt="JavaScript Games" />
+          <div class="project-layer">
+            <h4>JavaScript Games</h4>
+            <p>A coffee website, built using HTML, & CSS.</p>
+            <a href="#"
+              ><i class="fa-solid fa-arrow-up-right-from-square"></i
+            ></a>
+          </div>
         </div>
+      </div>
     </section>
 
     <script src="script.js"></script>
